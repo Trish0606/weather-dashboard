@@ -8,3 +8,15 @@ function updateBackground(weatherId) {
         body.style.background = "linear-gradient(to bottom, #757f9a, #d7dde8)"; // Cloudy
     }
 }
+// Run this when the page loads
+window.onload = () => {
+    const lastCity = localStorage.getItem('lastCity');
+    if (lastCity) {
+        getWeather(lastCity); // Automatically loads their last search
+    }
+};
+
+// Add this inside your weather fetch function after a successful search
+function saveCity(city) {
+    localStorage.setItem('lastCity', city);
+}
