@@ -1,13 +1,17 @@
-# weather-dashboard
-A responsive weather application using OpenWeatherMap API and LocalStorage.
+# 🌤️ WeatherView Dashboard
 
-🌤️ WeatherView Dashboard
-Live Demo: [Click Here to View](https://trish0606.github.io/weather-dashboard/)
+A sleek, responsive weather application built with Vanilla JavaScript that provides real-time weather data for cities globally.
 
-Technical Highlights:
+## 🚀 Live Demo
+**Check it out here:** [(https://trish0606.github.io/weather-dashboard/)]
 
-- API Integration: Handles asynchronous data fetching with async/await.
+## 🛠️ Features
+- **Real-time Data:** Integration with OpenWeatherMap API for accurate, up-to-the-minute weather stats.
+- **Smart Error Handling:** Custom alerts for "City Not Found" or API connection issues to ensure a smooth user experience.
+- **Persistent Settings:** Uses `LocalStorage` to remember the last city you searched for.
+- **Responsive Design:** Mobile-first layout designed with CSS Flexbox and Glassmorphism.
 
-- State Management: Uses LocalStorage to persist user data across sessions.
-
-- UI/UX: Implements CSS Grid and Glassmorphism for a modern aesthetic.
+## 💻 Tech Stack
+- **Frontend:** HTML5, CSS3 (Custom Variables & Grid)
+- **Logic:** JavaScript (ES6+, Fetch API, Async/Await)
+- **API:** OpenWeatherMap API
