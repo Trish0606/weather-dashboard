@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WeatherView | Portfolio Project</title>
+    <title>WeatherView Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,28 +15,28 @@
 
         <main id="weather-display" class="hidden">
             <div class="weather-card">
-                <h1 id="city-name">London</h1>
-                <p id="date">Monday, 22 Feb</p>
-                <img id="weather-icon" src="" alt="Weather Icon">
-                <h2 id="temp">20°C</h2>
-                <p id="description">Partly Cloudy</p>
+                <h1 id="city-name">---</h1>
+                <p id="date"></p>
+                <div id="icon-container">
+                    </div>
+                <h2 id="temp">--°C</h2>
+                <p id="description">--</p>
             </div>
 
             <div class="stats-grid">
                 <div class="stat-item">
                     <span>Humidity</span>
-                    <p id="humidity">60%</p>
+                    <p id="humidity">--%</p>
                 </div>
                 <div class="stat-item">
                     <span>Wind Speed</span>
-                    <p id="wind">12 km/h</p>
+                    <p id="wind">-- km/h</p>
                 </div>
             </div>
         </main>
 
-        <p id="error-msg" class="error hidden">City not found. Please try again.</p>
+        <p id="error-msg" class="error hidden">City not found. Try again!</p>
     </div>
-    <script src="config.js"></script>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
