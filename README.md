@@ -3,7 +3,7 @@
 A sleek, responsive weather application built with Vanilla JavaScript that provides real-time weather data for cities globally.
 
 ## 🚀 Live Demo
-**Check it out here:** [(https://trish0606.github.io/weather-dashboard/)]
+**Check it out here:** https://trish0606.github.io/weather-dashboard/
 
 ## 🛠️ Features
 - **Real-time Data:** Integration with OpenWeatherMap API for accurate, up-to-the-minute weather stats.
