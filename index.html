@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherView | Portfolio Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="search-box">
+            <input type="text" id="city-input" placeholder="Enter city name..." autocomplete="off">
+            <button id="search-btn">Search</button>
+        </header>
+
+        <main id="weather-display" class="hidden">
+            <div class="weather-card">
+                <h1 id="city-name">London</h1>
+                <p id="date">Monday, 22 Feb</p>
+                <img id="weather-icon" src="" alt="Weather Icon">
+                <h2 id="temp">20°C</h2>
+                <p id="description">Partly Cloudy</p>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span>Humidity</span>
+                    <p id="humidity">60%</p>
+                </div>
+                <div class="stat-item">
+                    <span>Wind Speed</span>
+                    <p id="wind">12 km/h</p>
+                </div>
+            </div>
+        </main>
+
+        <p id="error-msg" class="error hidden">City not found. Please try again.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
