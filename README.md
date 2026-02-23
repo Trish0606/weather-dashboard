@@ -2,7 +2,7 @@
 A responsive weather application using OpenWeatherMap API and LocalStorage.
 
 🌤️ WeatherView Dashboard
-Live Demo: Click Here to View
+Live Demo: [Click Here to View](https://trish0606.github.io/weather-dashboard/)
 
 Technical Highlights:
 
